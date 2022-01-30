@@ -17,10 +17,13 @@
         <p>Computer Engineering Chaing Mai University</p>
     </div>
 
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <a href="./index.html">Home</a>
         <a href="./portfolio.html">Portfolio and Skills</a>
         <a href="./Experience.html">Experience</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <div class="row">
@@ -71,5 +74,15 @@
         </p>
     </div>
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 </html>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>HOME</title>
 </head>
 
 <body>
@@ -17,10 +17,13 @@
         <p>Computer Engineering Chaing Mai University</p>
     </div>
 
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <a href="./index.html">Home</a>
         <a href="./portfolio.html">Portfolio and Skills</a>
         <a href="./Experience.html">Experience</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <div class="row">
@@ -49,7 +52,8 @@
                     <p>Bachelor's degree of Computer Engineering GPA 2.29</p>
                     </p>
                     <a>
-                        <img class="resume" onclick="document.location='./image/PawarisResume.pdf'" src="./image/icons8-download-resume-96.png">
+                        <img class="resume" onclick="document.location='./image/PawarisResume.pdf'"
+                            src="./image/icons8-download-resume-96.png">
                         Download resume
                     </a>
 
@@ -69,6 +73,17 @@
             © 2022 Pawaris Suea-aeim Tel: 095-5799772
         </p>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>

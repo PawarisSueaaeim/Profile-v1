@@ -23,10 +23,13 @@
         <p>Computer Engineering Chaing Mai University</p>
     </div>
 
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <a href="./index.html">Home</a>
         <a href="./portfolio.html">Portfolio and Skills</a>
         <a href="./Experience.html">Experience</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <div class="row">
@@ -163,10 +166,13 @@
                                 </div>
                             </div>
                             <div class="card__img"></div>
+                            <a href="https://youtu.be/TiUhsXZNsV0" class="card_link">
+                                <div class="card__img--hover"></div>
+                            </a>
                             <div class="card__info">
                                 <span class="card__category">Jan. 2019 - Mar. 2019</span>
                                 <h3 class="card__title">WereWoft Online Game</h3>
-                                <a class="card__author" title="author">View more</a>
+                                <p class="card__author" title="author">View more</ย>
                             </div>
                         </article>
                         <article class="card card--6">
@@ -183,6 +189,9 @@
                                 </div>
                             </div>
                             <div class="card__img"></div>
+                            <a href="https://youtu.be/TiUhsXZNsV0" class="card_link">
+                                <div class="card__img--hover"></div>
+                            </a>
                             <div class="card__info">
                                 <span class="card__category">Oct. 2018 - Dec. 2018</span>
                                 <h3 class="card__title">Game 2048</h3>
@@ -259,5 +268,16 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 </html>
