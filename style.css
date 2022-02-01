@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300;400&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Nunito', sans-serif;
   margin: 0;
   background: #f1f1f1;
   background-image: url(./image/pexels-anna-nekrashevich-6476118.jpg);
@@ -209,8 +209,8 @@ h3 {
     right: 0;
     display: block;
     position: fixed;
-    background-color: #080808;
-    color: #ddd;
+    background-color: #cecece;
+    color: rgb(5, 5, 5);
     border-radius: 10px;
     top: 10px;
     width: 15%;
