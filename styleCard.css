@@ -49,6 +49,11 @@
   background-image: url("./image/gogo.jpg");
 }
 
+.card--8 .card__img,
+.card--8 .card__img--hover {
+  background-image: url("./image/icons8-python-60.png");
+}
+
 .card__like {
   width: 40px;
 }

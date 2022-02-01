@@ -19,7 +19,8 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background-color: #072227;
+  color: #f1f1f1;
   opacity: 1;
 }
 
@@ -35,7 +36,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #35858B;
   opacity: 0.9;
 }
 
@@ -69,7 +70,7 @@ body {
 
 /* Fake image */
 .box_content {
-  background-color: rgb(3, 3, 3);
+  background-color: #072227;
   color: #f1f1f1;
   border-radius: 20px;
   width: 100%;
@@ -89,7 +90,7 @@ h3 {
 
 /* Add a page effect for articles */
 .content {
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
   opacity: 0.9;
@@ -106,7 +107,8 @@ h3 {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #072227;
+  color: #ddd;
   margin-top: 20px;
   opacity: 0.9;
 }
@@ -278,6 +280,7 @@ h3 {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -312,6 +315,7 @@ h3 {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
+
   .box_content p {
     margin-left: 0;
   }
