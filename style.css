@@ -221,18 +221,23 @@ h3 {
   .responsive-container {
     grid-template-columns: auto;
     padding: 0;
+    margin: 0;
   }
 
   .header {
     border-radius: 0;
+    box-shadow: 0;
   }
 
   .content {
     border-radius: 0;
+    box-shadow: 0;
+    width: 100%;
   }
 
+
   .box_content {
-    padding: 0;
+    padding: 5%;
   }
 
   .box_content p {
