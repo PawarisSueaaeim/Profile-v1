@@ -199,6 +199,19 @@ h3 {
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
 
+  p {
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 20px!important;
+  }
+  h2,h3 {
+    font-size: 16px!important;
+  }
+  h4,h5,h6 {
+    font-size: 14px!important;
+  }
+
   .dropdown {
     display: block;
     float: right;
@@ -208,6 +221,7 @@ h3 {
 
   .image {
     margin-top: 0;
+    width: 100px;
   }
 
   .page {
