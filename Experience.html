@@ -17,68 +17,82 @@
 </head>
 
 <body>
-    <div class="header">
-        <img class="image" src="./image/ProfileDay.jpg">
-        <h1>Pawaris Suea-aeim</h1>
-        <p>Computer Engineering Chaing Mai University</p>
-    </div>
+    <div class="responsive-container">
+        <div class="header">
+            <img class="image" src="./image/ProfileDay.jpg">
+            <h1>Pawaris Suea-aeim</h1>
+            <p>Computer Engineering Chaing Mai University</p>
+            <div class="page">
+                <button onclick="document.location='./index.html'" class="w3-bar-item w3-button sidebar-menu">
+                    <i class="fa fa-home w3-animate-right" style="float: left;"><a>Home</a></i>
+                </button>
+                <button onclick="document.location='./portfolio.html'" class="w3-bar-item w3-button sidebar-menu">
+                    <i class="fa fa-file w3-animate-right" style="float: left;"><a>Portfolio and Skills</a></i>
+                </button>
+                <button onclick="document.location='./experience.html'" class="w3-bar-item w3-button sidebar-menu">
+                    <i class="fa fa-edit w3-animate-right" style="float: left;"><a>Experience</a></i>
+                </button>
+            </div>
+            <div class="dropdown dropleft">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./index.html">Home</a>
+                    <a class="dropdown-item" href="./portfolio.html">Portfolio and skills</a>
+                    <a class="dropdown-item" href="./Experience.html">Experience</a>
+                </div>
+            </div>
+        </div>
 
-    <div class="topnav" id="myTopnav">
-        <a href="./index.html">Home</a>
-        <a href="./portfolio.html">Portfolio and Skills</a>
-        <a href="./Experience.html">Experience</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="content">
-                <h1>EXPERIENCE</h1>
-                <h5>Update, Feb 24, 2022</h5>
-                <div class="box_content">
-                    <div class="timeline">
-                        <div class="container-exp left">
-                            <div class="content-exp">
-                                <h3>Bachelor's degree of computer engineering</h3>
-                                <h4>August 2017 - May 2021</h4>
-                                <p>Computer engineering</p>
-                                <p>
-                                    • Basic engineering - Drawing/Calculus/Physics
-                                </p>
-                                <p>
-                                    • Basic automation - Programming/Mechatronics
-                                </p>
-                                <p>
-                                    • Manage plan and tasks of programming project or network project
-                                </p>
-                                <p>
-                                    • Design/Develop hardwere and softwere
-                                </p>
-                                <p>
-                                    • Learn to new thing of technology such as image processing, computer visions
-                                </p>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="content">
+                    <h1>EXPERIENCE</h1>
+                    <h5>Update, Feb 24, 2022</h5>
+                    <div class="box_content">
+                        <div class="timeline">
+                            <div class="container-exp left">
+                                <div class="content-exp">
+                                    <h3>Bachelor's degree of computer engineering</h3>
+                                    <h4>August 2017 - May 2021</h4>
+                                    <p>Computer engineering</p>
+                                    <p>
+                                        • Basic engineering - Drawing/Calculus/Physics
+                                    </p>
+                                    <p>
+                                        • Basic automation - Programming/Mechatronics
+                                    </p>
+                                    <p>
+                                        • Manage plan and tasks of programming project or network project
+                                    </p>
+                                    <p>
+                                        • Design/Develop hardwere and softwere
+                                    </p>
+                                    <p>
+                                        • Learn to new thing of technology such as image processing, computer visions
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="container-exp right">
-                            <div class="content-exp">
-                                <h3>System Engineer/IT Support</h3>
-                                <h4>October 2021 - September 2022</h4>
-                                <p>
-                                    Responsibility for Admin & Support.</p>
-                                <p>
-                                    • Maintain and monitoring IT regulation
-                                    regarding IT security
-                                </p>
-                                <p>
-                                    • IT vendor management for project
-                                    and maintenance. Responsibility for Network
-                                </p>
-                                <p>
-                                    • Manage plan and tasks of network
-                                    and IT infrastructure team
-                                </p>
+                            <div class="container-exp right">
+                                <div class="content-exp">
+                                    <h3>System Engineer/IT Support</h3>
+                                    <h4>October 2021 - September 2022</h4>
+                                    <p>
+                                        Responsibility for Admin & Support.</p>
+                                    <p>
+                                        • Maintain and monitoring IT regulation
+                                        regarding IT security
+                                    </p>
+                                    <p>
+                                        • IT vendor management for project
+                                        and maintenance. Responsibility for Network
+                                    </p>
+                                    <p>
+                                        • Manage plan and tasks of network
+                                        and IT infrastructure team
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,16 +100,13 @@
             </div>
         </div>
     </div>
-    </div>
-
     <div class="footer">
         <a href="https://web.facebook.com/profile.php?id=100006235390790" class="fa fa-facebook"
-            style="font-size: 30px;" target="_blank"></a>
+            style="font-size: 30px;"></a>
         <a href="https://www.youtube.com/channel/UChRwgbwyZU1eZFuqilV9bmg/featured" class="fa fa-youtube"
-            style="font-size: 30px;" target="_blank"></a>
-        <a href="mailto:pawaris.sueaaeim@gmail.com" class="fa fa-google" style="font-size: 30px;" target="_blank"></a>
-        <a href="https://www.instagram.com/pleumqz/" class="fa fa-instagram" style="font-size: 30px;"
-            target="_blank"></a>
+            style="font-size: 30px;"></a>
+        <a href="mailto:pawaris.sueaaeim@gmail.com" class="fa fa-google" style="font-size: 30px;"></a>
+        <a href="https://www.instagram.com/pleumqz/" class="fa fa-instagram" style="font-size: 30px;"></a>
         <p>
             © 2022 Pawaris Suea-aeim Tel: 095-5799772
         </p>
