@@ -200,6 +200,10 @@ video {
   width: 700px;
 }
 
+.img_modal {
+  width: 700px;
+}
+
 @media screen and (max-width: 1500px) {
 
   .responsive-container{
@@ -214,7 +218,11 @@ video {
 @media screen and (max-width: 1000px) {
 
   video {
-    width: 421px;
+    width: 310px;
+  }
+
+  .img_modal {
+    width: 310px;
   }
 
   p {
