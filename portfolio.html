@@ -21,7 +21,7 @@
         <div class="header">
             <div class="style_switch">
                 <label class="switch">
-                    <input  onclick="myFunction()" type="checkbox" checked>
+                    <input onclick="myFunction()" type="checkbox" checked>
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -264,9 +264,9 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">   
-                    <img class="img_modal" style="margin: 5%;" src="./image/python.jpg">                      
-                    <video style="margin: 5%;" controls>  
+                <div class="modal-body">
+                    <img class="img_modal" style="margin: 5%;" src="./image/python.jpg">
+                    <video style="margin: 5%;" controls>
                         <source src="./image/faceRecognition.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -296,6 +296,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark_mode");
+        }
+    </script>
 </body>
 
 </html>
