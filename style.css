@@ -19,7 +19,7 @@ body {
   transition: 0.1s;
 }
 
-.dark_mode {
+body.dark_mode {
   margin: 0;
   background: #f1f1f1;
   background-image: url(./image/pexels-otavio-fonseca-4665064.jpg);
@@ -29,12 +29,30 @@ body {
   transition: 0.1s;
 }
 
+.box-dark-mode {
+  background-color: #525252;
+  color: rgb(252, 252, 252);
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 0 20px 20px 0px;
+  box-shadow: 2px 5px 5px #000000;
+}
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
   background-color: #072227;
+  color: #f1f1f1;
+  opacity: 1;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 1px 5px 5px #000000;
+}
+
+.header-dark-mode {
+  padding: 30px;
+  text-align: center;
+  background-color: #313131;
   color: #f1f1f1;
   opacity: 1;
   border-radius: 20px 0 0 20px;
@@ -48,6 +66,11 @@ body {
 }
 
 .header h1 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.header-dark-mode h1 {
   font-size: 30px;
   margin-top: 15px;
 }
@@ -79,6 +102,26 @@ h3 {
   margin-left: 10%;
 }
 
+.box_content-dark-mode {
+  background-color: #313131;
+  color: #f1f1f1;
+  border-radius: 20px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-inline: 10%;
+  box-shadow: 2px 2px 3px #000000;
+}
+
+.box_content-dark-mode p {
+  margin-left: 15%;
+}
+
+.box_content-dark-mode h2,
+h3 {
+  margin-left: 10%;
+}
+
 /* Add a page effect for articles */
 .content {
   background-color: #ffffff;
@@ -100,6 +143,15 @@ h3 {
   padding: 20px;
   text-align: center;
   background: #072227;
+  color: #ddd;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+.footer-dark-mode {
+  padding: 20px;
+  text-align: center;
+  background: #313131;
   color: #ddd;
   margin-top: 20px;
   opacity: 0.9;
