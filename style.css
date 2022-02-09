@@ -402,12 +402,31 @@ input:checked + .slider:before {
     width: 100%;
   }
 
+  .header-dark-mode {
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  .box-dark-mode {
+    border-radius: 0;
+    box-shadow: 0;
+    width: 100%;
+  }
+
 
   .box_content {
     padding: 5%;
   }
 
   .box_content p {
+    margin-left: 5%;
+  }
+
+  .box_content-dark-mode {
+    padding: 5%;
+  }
+
+  .box_content-dark-mode p {
     margin-left: 5%;
   }
 
