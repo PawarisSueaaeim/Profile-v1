@@ -222,7 +222,11 @@ h3 {
   color: white;
 }
 .fa-instagram {
-  background: #125688;
+  background: #bd0423;
+  color: white;
+}
+.fa-github {
+  background: #000000;
   color: white;
 }
 
