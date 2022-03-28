@@ -466,4 +466,9 @@ input:checked + .slider:before {
     grid-template-columns: auto;
     padding-inline: 5%;
   }
+
+  .grid-gallery {
+    grid-template-columns: auto;
+    text-align: center;
+  }
 }
