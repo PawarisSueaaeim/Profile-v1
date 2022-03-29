@@ -54,6 +54,11 @@
   background-image: url("./image/python.jpg");
 }
 
+.card--9 .card__img,
+.card--9 .card__img--hover {
+  background-image: url("./image/crud.jpg");
+}
+
 .card__like {
   width: 40px;
 }
