@@ -59,6 +59,11 @@
   background-image: url("./image/crud.jpg");
 }
 
+.card--10 .card__img,
+.card--10 .card__img--hover {
+  background-image: url("./image/Screenshot\ 2022-06-02\ 161732.png");
+}
+
 .card__like {
   width: 40px;
 }
