@@ -365,8 +365,26 @@ input:checked + .slider:before {
 }
 
 .gallery:hover {
-  transform: scale(1.1);
+  transform: scale(1.1618);
   transition: 0.3s;
+}
+
+.image_certificate {
+  width: 486px;
+  height: 300px;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  transition: 0.3s;
+}
+.image_certificate:hover {
+  transform: scale(1.1618);
+  transition: 0.3s;
+}
+
+.grid-container-certificate {
+  grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 1500px) {
@@ -376,6 +394,10 @@ input:checked + .slider:before {
 
   .grid-container {
     padding-inline: 5%;
+  }
+
+  .grid-container-certificate {
+    grid-template-columns: auto;
   }
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -475,5 +497,10 @@ input:checked + .slider:before {
   .grid-gallery {
     grid-template-columns: auto;
     text-align: center;
+  }
+
+  .image_certificate{ 
+    width: 315px;
+    height: 195px;
   }
 }
