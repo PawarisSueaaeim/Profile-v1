@@ -18,4 +18,6 @@ function myFunction() {
     var footerCvt = document.getElementById("switchClassFooter");
     var currentClassfooter = footerCvt.className;
     footerCvt.className = currentClassfooter == "footer-dark-mode" ? "footer" : "footer-dark-mode";
+
+    const test = document.getElementsByClassName()
 }
